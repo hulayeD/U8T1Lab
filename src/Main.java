@@ -47,9 +47,17 @@ public class Main
         {
             System.out.println(Arrays.toString(brit));
         }
-        arr2=[0][1]=1;
-        arr2=[1][2]=2;
-        arr2[3][]
+        arr2[0][0]=1;
+        arr2[0][1]=4;
+        arr2[1][0]=2;
+        arr2[1][1]=5;
+        arr2[2][0]=3;
+        arr2[2][1]=6;
+        for(int[] brit:arr2)
+        {
+            System.out.println(Arrays.toString(brit));
+        }
+        System.out.println(arr1[0][2] + arr2[2][0]);
     }
 
 }
